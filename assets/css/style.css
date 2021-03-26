@@ -16,6 +16,7 @@
 body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 header {
     font-size: 13px;
@@ -53,7 +54,7 @@ ul {
     color: white;
     background-color: #fe775a;
     font-weight: 700;
-    padding: 8px 5px;
+    padding: 10px 10px;
     border-radius: 4px;
 }
     .bttn.whitebtn {
@@ -72,13 +73,16 @@ header li {
     display: inline-block;
     padding: 0px 15px;
 }
+    header li:first-child {
+        padding-left: 0px;
+    }
     header .col-2:last-child {
         text-align: right;
     }
     header .col-2:first-child li:first-child {
         border-right: 1px solid #33475b;
     }
-    header .col-2:last-child * {
+    header .sticky .col-2:last-child * {
         margin: 0px 8px;
     }
     header .col-2:last-child img {
@@ -90,4 +94,26 @@ header li {
     height: 70px;
     position: sticky;
     border-bottom: 1px solid #33475b;
+}
+
+.main {
+    background-color: white;
+    height: 70px;
+}
+    .main .fa-angle-down {
+        margin: 0px 7px;
+    }
+
+
+
+/* ############################### */
+/* ########## MAIN BODY ########## */
+/* ############################### */
+.hero_section {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/jumbotron.png");
+    background-repeat: no-repeat;
+    background-color: #fef4ed;
+    background-position: 100% 15%;
 }

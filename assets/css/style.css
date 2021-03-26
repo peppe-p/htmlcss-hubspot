@@ -23,6 +23,12 @@ header {
 i {
     color: #33475b;
 }
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
 
 /* ############################### */
 /* ####### GENERAL CLASSES ####### */
@@ -36,38 +42,52 @@ i {
 .col-2 {
     position: relative;
     float: left;
-    height: 100%;
     width: 49%;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
 }
 
-.verticalHR {
-    display: inline-block;
-    font-size: 10px;
+.bttn {
+    text-decoration: none;
+    color: white;
+    background-color: #fe775a;
+    font-weight: 700;
+    padding: 8px 5px;
+    border-radius: 4px;
 }
-
-
+    .bttn.whitebtn {
+        background-color: white;
+        border: 1px solid #fe775a;
+        color: #fe775a;
+    }
 /* ############################## */
 /* ####### + + HEADER + + ####### */
 /* ############################## */
 header a {
-    text-decoration: none;
     color: #33475b;
 }
+
+header li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+    header .col-2:last-child {
+        text-align: right;
+    }
+    header .col-2:first-child li:first-child {
+        border-right: 1px solid #33475b;
+    }
+    header .col-2:last-child * {
+        margin: 0px 8px;
+    }
+    header .col-2:last-child img {
+        height: 15px;
+    }
+
 .sticky {
     background-color: #f4f9fd;
     height: 70px;
     position: sticky;
+    border-bottom: 1px solid #33475b;
 }
-    .sticky .col-2 * {
-        height: 30px;
-    }
-
-    .sticky .col-2 > span {
-        display: inline-block;
-        position: relative;
-        top: 50%;
-        left: 0%;
-        transform: translateY(-50%);
-        text-align: center;
-        line-height: 30px;
-    }

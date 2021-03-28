@@ -42,7 +42,11 @@ p {
     line-height: 30px;
     font-weight: 500;
 }
-
+footer {
+    background-color: #32495b;
+    color: white;
+    padding: 30px 0px;
+}
 /* ############################### */
 /* ####### GENERAL CLASSES ####### */
 /* ############################### */
@@ -418,3 +422,62 @@ header li {
     .img_partnerherodiv img {
         height: 400px;
     }
+
+
+/* ############################ */
+/* ########## FOOTER ########## */
+/* ############################ */
+.col-4 {
+    float: left;
+    width: 24%;
+}
+    .col-4 a {
+        font-weight: 500;
+    }
+    .col-4 li {
+        margin-bottom: 15px;
+    }
+    .col-4 li:first-child {
+        margin-bottom: 20px;
+    }
+    .col-4 .bttn {
+        display: inline-block;
+        margin: 10px 0px 20px 0px;
+        background-color: white;
+        color: #3a5163;
+    }
+
+.icons_div {
+
+}
+footer a, footer i, footer hr {
+    color: white;
+}
+
+footer i {
+    margin-right:  25px;
+}
+
+.lang {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.lang li, .end_page div:last-child li {
+    display: inline-block;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+
+.end_page {
+    margin-top: 30px;
+}
+
+.end_page div:first-child {
+    float: left;
+}
+
+.end_page div:last-child {
+    font-weight: 500;
+    float: right;
+}

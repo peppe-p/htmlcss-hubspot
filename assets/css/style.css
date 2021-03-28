@@ -307,6 +307,9 @@ header li {
 
 
 
+/* ######################################## */
+/* ########## STATISTICS SECTION ########## */
+/* ######################################## */
 .statistics_section {
     background: linear-gradient(70deg, rgba(0,164,188,1) 0%, rgba(0,188,165,1) 100%);
     color: white;
@@ -352,3 +355,66 @@ header li {
             font-weight: 100;
             font-size: 30px;
         }
+
+
+
+/* ###################################### */
+/* ########## PARTNERS SECTION ########## */
+/* ###################################### */
+.partners {
+    background-color: white;
+    padding: 50px 50px 0px 50px;
+}
+
+.partner_div {
+    width: 60%;
+    margin: auto;
+}
+    .partner_div h2 {
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+    .partner_div > div {
+        position: relative;
+    }
+    .partner_div > div:first-child {
+        float: left;
+        width: 20%;
+    }
+    .partner_div > div:last-child {
+        float: right;
+        width: 80%;
+    }
+.row {
+    text-align: right;
+}
+    .partner_logos img {
+        display: inline-block;
+        width: 100px;
+        position: relative;
+        top: 50%;
+        left: 0%;
+        transform: translateY(50%);
+        margin-right: 20px;
+
+    }
+
+.partner_div2 {
+    padding: 80px 80px 50px 80px;
+}
+
+.partner_div2 h2 {
+    font-size: 30px;
+}
+.partner_div2 .hero_div {
+    float: left;
+    width: 45%;
+    margin-top: 50px;
+}
+
+.img_partnerherodiv {
+    float: right;
+}
+    .img_partnerherodiv img {
+        height: 400px;
+    }

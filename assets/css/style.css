@@ -23,9 +23,9 @@ h1 {
     font-size: 50px;
     line-height: 50px;
 }
-p {
-    line-height: 30px;
-}
+    h2 {
+        font-size: 25px;
+    }
 header {
     font-size: 13px;
 }
@@ -37,6 +37,9 @@ a {
 }
 ul {
     list-style: none;
+}
+p {
+    line-height: 30px;
 }
 
 /* ############################### */
@@ -69,6 +72,28 @@ ul {
         background-color: white;
         border: 1px solid #fe775a;
         color: #fe775a;
+    }
+
+.rounded_card {
+    background-color: white;
+    box-shadow: 2px 2px 10px lightgray;
+    border-radius: 5px;
+}
+
+.orangecheck {
+    height: 17px;
+    width: 17px;
+    background-color: #fe775a;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+    margin-right: 10px;
+}
+    .orangecheck::after {
+        content: "\2714";
+        color: white;
+        font-size: 12px;
     }
 /* ############################## */
 /* ####### + + HEADER + + ####### */
@@ -114,9 +139,9 @@ header li {
 
 
 
-/* ############################### */
-/* ########## MAIN BODY ########## */
-/* ############################### */
+/* ################################## */
+/* ########## HERO SECTION ########## */
+/* ################################## */
 .hero_section {
     width: 100%;
     height: 600px;
@@ -127,7 +152,7 @@ header li {
 }
 
 .hero_div {
-    width: 50%;
+    width: 45%;
     height: 100%;
 }
     .hero_div h1 {
@@ -145,4 +170,136 @@ header li {
     height: 70px;
     border-top: 4px solid #3a5163;
     border-bottom: 4px solid #3a5163;
+}
+
+
+
+/* ############################### */
+/* ########## MAIN BODY ########## */
+/* ############################### */
+.main_section {
+    background-color: #f4f9fd;
+    padding-bottom: 50px;
+}
+    .main_subsection_1 > div:first-child {
+        text-align: center;
+        width: 70%;
+        padding: 50px 0px;
+        margin: auto;
+    }
+        .main_subsection_1 > div:first-child p {
+            margin: 30px 0px;
+        }
+
+        .main_subsection_1 > div:first-child img {
+            width: 250px;
+        }
+
+    .main_subsection_1 > div:last-child {
+        position: relative;
+
+    }
+
+.msb1_div2 {
+    height: 350px;
+    position: relative;
+}
+
+.cardcontainer_big {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+}
+
+.cardcontainer_big > div {
+    float: left;
+}
+.cardcontainer_big > div:first-child {
+    width: 34%;
+    text-align: center;
+}
+    .cardcontainer_big > div:first-child img {
+        margin: 0px 0px 50px 0px;
+        width: 180px;
+    }
+    .cardcontainer_big > div:first-child a {
+        padding: 20px 50px;
+    }
+.cardcontainer_big > div:last-child {
+    width: 64%;
+    padding-right: 80px;
+}
+.cardcontainer_big > div:last-child p {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.cardcontainer_big > div:last-child h3 {
+    background-color: white;
+    position: absolute;
+    margin: -10px 0px 0px 0px;
+    padding-right: 60px;
+}
+
+.checkedzone {
+    margin-top: 40px;
+}
+    .checkedzone > div {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+
+
+
+.main_subsection_2 {
+    margin-top: 60px;
+}
+    .main_subsection_2 img {
+        height: 120px;
+        width: 120px;
+    }
+.cards_container {
+    text-align: center;
+}
+.card {
+    width: 30%;
+    padding: 40px;
+}
+    .card h2 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .card hr {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .card h3 {
+        margin-bottom: 20px;
+    }
+    .card a {
+        margin-top: 50px;
+        padding: 20px 45px;
+    }
+.a {
+    float: left;
+}
+.c {
+    float: right;
+}
+.b {
+    float: left;
+    position: relative;
+    transform: translateX(-50%);
+    top: 0px;
+    left: 20%;
+}
+.checkfeature {
+    text-align: left;
+}
+.checkfeature_box {
+    margin-bottom: 70px;
 }

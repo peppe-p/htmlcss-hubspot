@@ -40,6 +40,7 @@ ul {
 }
 p {
     line-height: 30px;
+    font-weight: 500;
 }
 
 /* ############################### */
@@ -303,3 +304,51 @@ header li {
 .checkfeature_box {
     margin-bottom: 70px;
 }
+
+
+
+.statistics_section {
+    background: linear-gradient(70deg, rgba(0,164,188,1) 0%, rgba(0,188,165,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+    .statistics_section .widthed_page > p {
+        margin: 40px 0px;
+    }
+    .statistics_section .widthed_page > h2 {
+        font-size: 35px;
+        width: 90%;
+        margin: auto;
+    }
+
+.rowstats:last-child {
+    margin-top: -5px;
+}
+
+.rowstats > div {
+    display: inline-block;
+}
+
+.cubestats {
+    padding: 20px 30px;
+    width: 250px;
+    float: left;
+}
+    .statistics_section div.rowstats:nth-child(3) .cubestats:not(:last-child) {
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+        .statistics_section div.rowstats:last-child .cubestats:not(:first-child) {
+        border-left: 1px solid white;
+        border-top: 1px solid white;
+    }
+    .cubestats h2 {
+        margin: 15px 0px;
+        font-size: 40px;
+    }
+        .cubestats h2::after {
+            content: " +";
+            font-weight: 100;
+            font-size: 30px;
+        }

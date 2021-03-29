@@ -130,13 +130,18 @@ header li {
 .sticky {
     background-color: #f4f9fd;
     height: 70px;
-    position: sticky;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
     border-bottom: 1px solid #33475b;
 }
 
 .main {
     background-color: white;
     height: 70px;
+    margin-top: 70px;
 }
     .main .fa-angle-down {
         margin: 0px 7px;

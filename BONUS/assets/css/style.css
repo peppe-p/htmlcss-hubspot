@@ -105,6 +105,19 @@ footer {
   position: relative;
   display: inline-block;
 }
+.dropdown h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.dropdown p {
+    line-height: 22px;
+}
+.dropdown_showed hr {
+    margin: 30px 0px;
+    border: 0;
+    height: 2px;
+    background: #d4dde7;
+}
 .arrowup {
     display: none;
     position: absolute;
@@ -121,15 +134,15 @@ footer {
 }
 
 .dropdown_showed {
-  display: none;
-  position: absolute;
-  top: 2rem;
-  background-color: white;
-  box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
-  padding: 30px;
-  z-index: 2;
-  transform: translateX(-70%);
-  text-align: left;
+    display: none;
+    position: absolute;
+    top: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+    padding: 30px;
+    z-index: 2;
+    transform: translateX(-70%);
+    text-align: left;
 
 }
 .dropdown_showed li {
@@ -143,8 +156,26 @@ footer {
 .dropdown:hover .arrowup {
   display: inline-block;
 }
+ /* #### SOFTWARE MENU ##### */
+ .software_drop {
+     min-width: 500px;
+ }
+.software_INdiv {
+    float: left;
+}
 
- /* #### ABOUT MENU ##### */
+
+ /* #### RESOURCES MENU ##### */
+ .row_resourcesdrop {
+     min-width: 850px;
+ }
+.row_resourcesdrop > div {
+    float: left;
+    width: 30%;
+    margin-right: 15px;
+}
+
+ /* #### PARTNERS MENU ##### */
 .partners_drop {
     min-width: 800px;
 }
@@ -152,13 +183,6 @@ footer {
     float: left;
     width: 49%;
     padding-left: 20px;
-}
-.partners_drop h2 {
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-.partners_drop p {
-    line-height: 22px;
 }
 
  /* #### ABOUT MENU ##### */

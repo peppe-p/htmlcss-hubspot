@@ -143,17 +143,46 @@ footer {
     z-index: 2;
     transform: translateX(-70%);
     text-align: left;
+}
 
+.dropdown_showed_LANG {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.15);
+    padding: 15px;
+    z-index: 2;
+    text-align: left;
+}
+.dropdown_showed_LANG a:not(:first-child, :last-child) {
+    display: block;
+    margin: 20px 0px;
+}
+
+.arrowup_LANG {
+    display: none;
+    position: absolute;
+    border-radius: .18rem 0 0;
+    transform: rotate(45deg) translate(-50%);
+    width: 1rem;
+    height: 1rem;
+    content: '';
+    background-color: white;
+    top: 28px;
+    box-shadow: -1px -1px 1px 0px rgba(0,0,0,0.15);
+    z-index: 3;
+    left: 90%;
 }
 .dropdown_showed li {
     font-weight: 500;
     margin: 0px 0px;
     padding: 0;
 }
-.dropdown:hover .dropdown_showed  {
+.dropdown:hover .dropdown_showed, .dropdown:hover .dropdown_showed_LANG  {
   display: block;
 }
-.dropdown:hover .arrowup {
+.dropdown:hover .arrowup, .dropdown:hover .arrowup_LANG {
   display: inline-block;
 }
  /* #### SOFTWARE MENU ##### */

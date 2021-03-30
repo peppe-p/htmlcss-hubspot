@@ -106,7 +106,7 @@ footer {
   display: inline-block;
 }
 .dropdown h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 .dropdown p {
@@ -158,12 +158,35 @@ footer {
 }
  /* #### SOFTWARE MENU ##### */
  .software_drop {
-     min-width: 500px;
+     min-width: 550px;
  }
+.software_drop > div:not(:first-child, :last-child) {
+    margin: 20px 0px;
+}
+
+.software_div img {
+    height: 50px;
+}
+.software_div > div:first-child {
+    width: 14%;
+}
+.software_div > div:last-child {
+    width: 84%;
+}
 .software_INdiv {
     float: left;
 }
 
+.cmshub_div h2 {
+    display: inline-block;
+}
+.cmshub_div span {
+    font-size: 12px;
+    background-color: #00bda5;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: white;
+}
 
  /* #### RESOURCES MENU ##### */
  .row_resourcesdrop {
@@ -227,7 +250,7 @@ header li {
     header .sticky .col-2:last-child * {
         margin: 0px 8px;
     }
-    header .col-2:last-child img {
+    header .sticky .col-2:last-child img {
         height: 15px;
     }
 

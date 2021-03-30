@@ -615,6 +615,9 @@ footer a, footer i, footer hr {
 footer i {
     margin-right:  25px;
 }
+footer .col-4 ul li:not(:first-child), footer .col-4 .bttn, footer .col-4 i, footer .lang li, .end_page img{
+    opacity: 60%;
+}
 
 .lang {
     text-align: center;
@@ -623,7 +626,7 @@ footer i {
 }
 .lang li, .end_page div:last-child li {
     display: inline-block;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0px 15px;
 }
 
